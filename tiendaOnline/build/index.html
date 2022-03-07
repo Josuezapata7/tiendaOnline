@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+</head>
+<body>
+    
+    <header>
+
+        <div class="contenedor-header">
+
+            <div class="contenedor-img-menu">
+
+                <div class="contenedor-imagen">
+
+                    <img class="logo" src="./img/white_logo_transparent_background.png" alt="">
+    
+                </div>
+    
+                <nav class="menu-header">
+    
+                    <a href="#">Login <i class="icono-sesion fas fa-user"></i></a>
+    
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="main">
+
+        <div class="contenedor-productos">
+
+            <i class="barra-orden fas fa-bars" id="abrir-compra"></i>
+
+            <div class="contenedor-titulo-buscar">
+
+                <div class="contenedor-titulo-lupa">
+
+                    <h2 class="tutilo-productos">Productos</h2>
+
+                    <div class="buscar-lupa">
+    
+                        <input type="text" class="input-lupa" placeholder="Buscar">
+                        <i class="fas fa-search"></i>
+    
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="productos">
+
+                <div class="contenedor-producto">
+
+                    <div class="imagen-producto">
+
+                        <img src="./img/coca.jpg" alt="">
+
+                    </div>
+
+                    <h5>Coca-cola</h5>
+
+                    <div class="contenedor-precio-stock-add">
+
+                        <p>Precio:<span>Q10</span></p>
+                        <p>Stock:<span>5</span></p>
+                        <i class="fas fa-plus-circle"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="contenedor-producto">
+
+                    <div class="imagen-producto">
+
+                        <img src="./img/clasica.jpg" alt="">
+
+                    </div>
+
+                    <h5>Lays</h5>
+
+                    <div class="contenedor-precio-stock-add">
+
+                        <p>Precio:<span>Q10</span></p>
+                        <p>Stock:<span>5</span></p>
+                        <i class="fas fa-plus-circle"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="contenedor-producto">
+
+                    <div class="imagen-producto">
+
+                        <img src="./img/doritos.jpg" alt="">
+
+                    </div>
+
+                    <h5>Coca-cola</h5>
+
+                    <div class="contenedor-precio-stock-add">
+
+                        <p>Precio:<span>Q10</span></p>
+                        <p>Stock:<span>5</span></p>
+                        <i class="fas fa-plus-circle"></i>
+
+                    </div>
+
+
+                </div>
+
+                <div class="contenedor-producto">
+
+                    <div class="imagen-producto">
+
+                        <img src="./img/pepsi.jfif" alt="">
+
+                    </div>
+
+                    <h5>Coca-cola</h5>
+
+                    <div class="contenedor-precio-stock-add">
+
+                        <p>Precio:<span>Q10</span></p>
+                        <p>Stock:<span>5</span></p>
+                        <i class="fas fa-plus-circle"></i>
+
+                    </div>
+
+
+                </div>
+
+                <div class="contenedor-producto">
+
+                    <div class="imagen-producto">
+
+                        <img src="./img/tortrix.jpg" alt="">
+
+                    </div>
+
+                    <h5>Coca-cola</h5>
+
+                    <div class="contenedor-precio-stock-add">
+
+                        <p>Precio:<span>Q10</span></p>
+                        <p>Stock:<span>5</span></p>
+                        <i class="fas fa-plus-circle"></i>
+
+                    </div>
+
+
+                </div>
+
+                <div class="contenedor-producto">
+
+                    <div class="imagen-producto">
+
+                        <img src="./img/totis.jfif" alt="">
+
+                    </div>
+
+                    <h5>Coca-cola</h5>
+
+                    <div class="contenedor-precio-stock-add">
+
+                        <p>Precio:<span>Q10</span></p>
+                        <p>Stock:<span>5</span></p>
+                        <i class="fas fa-plus-circle"></i>
+
+                    </div>
+
+
+                </div>
+
+                <div class="contenedor-producto">
+
+                    <div class="imagen-producto">
+
+                        <img src="./img/elotitos.jpg" alt="">
+
+                    </div>
+
+                    <h5>Coca-cola</h5>
+
+                    <div class="contenedor-precio-stock-add">
+
+                        <p>Precio:<span>Q10</span></p>
+                        <p>Stock:<span>5</span></p>
+                        <i class="fas fa-plus-circle"></i>
+
+                    </div>
+
+
+                </div>
+
+                <div class="contenedor-producto">
+
+                    <div class="imagen-producto">
+
+                        <img src="./img/gomitas.jpg" alt="">
+
+                    </div>
+
+                    <h5>Coca-cola</h5>
+
+                    <div class="contenedor-precio-stock-add">
+
+                        <p>Precio:<span>Q10</span></p>
+                        <p>Stock:<span>5</span></p>
+                        <i class="fas fa-plus-circle"></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <aside class="orden orden-activo" id="orden">
+
+            <div class="contenedor-titulo-compras">
+
+                <div class="contenedor-titulo-aside">
+
+                    <h3>Tu Compra</h3>
+                    <i class="fas fa-align-right" id="cerrar-compra"></i>
+
+                </div>
+
+                <div class="contenedor-compras">
+
+                    <div class="contenedor-compra">
+
+                        <div class="imagen-compra">
+
+                            <img src="./img/cocacola.jpg" alt="">
+
+                        </div>
+
+                        <div class="contenedor-cantidad-quitar">
+
+                            <p>Coca-cola<span>x2</span></p>
+                            <p>Subtotal:<span>Q20</span></p>
+                            <i class="fas fa-minus-circle"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <p>Total: <span>Q100</span></p>
+                <button class="enviar-orden">Finalizar Orden</button>
+
+            </div>
+
+        </aside>
+
+    </section>
+
+    <footer>
+
+        <div class="contenedor-footer">
+            
+
+            <div class="contenedor-contacto">
+
+                <h4>Contacto</h4>
+                <p>Teléfono: <span>161561</span> </p>
+    
+            </div>
+    
+            <div class="contenedor-derechos-autor">
+    
+                <h4>Derechos de Autor</h4>
+                <p>Autor: <span>Josue Zapata</span> </p>
+                <p>Teléfono: <span>41676527</span> </p>
+    
+            </div>
+    
+            <div class="redes-sosciales-autor">
+    
+                <h4>Redes Sociales de Autor</h4>
+                <i class="facebook fab fa-facebook-f"></i>
+                <i class="instagram fab fa-instagram"></i>
+    
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <script src="./js/tienda.jsx"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
