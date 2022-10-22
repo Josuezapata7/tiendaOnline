@@ -392,6 +392,7 @@ header{
 
     }
 
+    /*----- Estilos realizados al todo el contenedor de ordenes ------ */
     .contenedor-ordenes{
 
         display: none;
@@ -454,6 +455,11 @@ header{
             width: 100%;
             margin-top: 30px;
 
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
             .orden{
 
                 background: #1F2232;
@@ -462,6 +468,8 @@ header{
                 width: 40%;
 
                 padding: 20px;
+
+                margin-bottom: 20px;
     
                 .contenedor-orden-numero{
 
@@ -1429,6 +1437,32 @@ footer{
             }
 
         }
+
+        .contenedor-ordenes{
+
+            .ordenes{
+
+                .orden{
+
+                    .conenedor-productos-orden{
+
+                        .contenedor-img-lista{
+
+                            .contenedor-img-orden{
+
+                                width: 30%;
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
     
     }
 
@@ -1589,6 +1623,79 @@ footer{
 
         }
 
+        .contenedor-ordenes{
+
+            .contenedor-titulo-buscar{
+
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .contenedor-titulo-lupa{
+
+                    flex-direction: row;
+                    flex-wrap: wrap;
+
+                    .tutilo-ordenes{
+
+
+                        width: 100%;
+                        text-align: center;
+
+                    }
+
+                    .buscar-lupa{
+
+                        margin-top: 54px;
+                        margin-left: 20px;
+                        position: relative;
+
+                    }
+
+                }
+
+            }
+
+            .ordenes{
+
+                .orden{
+
+                    .conenedor-productos-orden{
+
+                        .contenedor-img-lista{
+
+                            text-align: center;
+
+                            ul{
+
+                                width: 100%;
+
+                            }
+
+                            .contenedor-img-orden{
+
+                                width: 100%;
+                                margin-left: 0;
+
+                                justify-content: center;
+
+                                img{
+
+                                    width: 80%;
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
         .orden{
 
             width: 0%;
@@ -1703,6 +1810,72 @@ footer{
     
                 }
     
+            }
+
+        }
+
+        .contenedor-ordenes{
+
+            .ordenes{
+
+                .orden{
+
+                    width: 100%;
+
+
+                    .conenedor-productos-orden{
+
+                        .contenedor-img-lista{
+
+                            text-align: center;
+
+                            ul{
+
+                                width: 100%;
+
+                            }
+
+                            .contenedor-img-orden{
+
+                                width: 100%;
+                                margin-left: 0;
+
+                                justify-content: center;
+
+                                img{
+
+                                    width: 50%;
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                    .btns-entrega{
+
+                        flex-direction: column;
+
+                        .btn-estado-finalizar{
+
+                            margin-right: 0;
+                            margin-bottom: 10px;
+                            width: 90%;
+
+                        }
+
+                        .btn-estado-cancelar{
+
+                            width: 90%;
+
+                        }
+
+                    }
+
+                }
+
             }
 
         }

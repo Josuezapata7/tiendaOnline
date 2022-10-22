@@ -64,7 +64,8 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /*----- Estilos realizados al todo el contenedor de productos ------ */ }
+  /*----- Estilos realizados al todo el contenedor de productos ------ */
+  /*----- Estilos realizados al todo el contenedor de ordenes ------ */ }
   .main .menu {
     width: 100%;
     display: flex;
@@ -238,13 +239,18 @@ header {
             cursor: pointer; }
     .main .contenedor-ordenes .ordenes {
       width: 100%;
-      margin-top: 30px; }
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between; }
       .main .contenedor-ordenes .ordenes .orden {
         background: #1F2232;
         border: 1px solid #F7E8DF;
         border-radius: 10px;
         width: 40%;
-        padding: 20px; }
+        padding: 20px;
+        margin-bottom: 20px; }
         .main .contenedor-ordenes .ordenes .orden .contenedor-orden-numero {
           text-align: center; }
           .main .contenedor-ordenes .ordenes .orden .contenedor-orden-numero h3 {
@@ -675,6 +681,8 @@ footer {
     visibility: hidden; }
     .main .contenedor-productos .orden-activo .contenedor-titulo-compras {
       display: none; }
+  .main .contenedor-ordenes .ordenes .orden .conenedor-productos-orden .contenedor-img-lista .contenedor-img-orden {
+    width: 30%; }
   /* --------- Estilos overlay Productos -------- */
   .overlay-agregar-producto .formulario-agregar-producto .inputs-agregar-producto .contenedor-input {
     width: 30%; }
@@ -723,6 +731,29 @@ footer {
     width: 40%; }
     .main .contenedor-productos .productos .contenedor-producto:hover {
       width: 40.5%; }
+  .main .contenedor-ordenes .contenedor-titulo-buscar {
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .main .contenedor-ordenes .contenedor-titulo-buscar .contenedor-titulo-lupa {
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .main .contenedor-ordenes .contenedor-titulo-buscar .contenedor-titulo-lupa .tutilo-ordenes {
+        width: 100%;
+        text-align: center; }
+      .main .contenedor-ordenes .contenedor-titulo-buscar .contenedor-titulo-lupa .buscar-lupa {
+        margin-top: 54px;
+        margin-left: 20px;
+        position: relative; }
+  .main .contenedor-ordenes .ordenes .orden .conenedor-productos-orden .contenedor-img-lista {
+    text-align: center; }
+    .main .contenedor-ordenes .ordenes .orden .conenedor-productos-orden .contenedor-img-lista ul {
+      width: 100%; }
+    .main .contenedor-ordenes .ordenes .orden .conenedor-productos-orden .contenedor-img-lista .contenedor-img-orden {
+      width: 100%;
+      margin-left: 0;
+      justify-content: center; }
+      .main .contenedor-ordenes .ordenes .orden .conenedor-productos-orden .contenedor-img-lista .contenedor-img-orden img {
+        width: 80%; }
   .main .orden {
     width: 0%; }
   .main .orden-desactivo {
@@ -756,6 +787,26 @@ footer {
     margin-right: 0; }
     .main .contenedor-productos .productos .contenedor-producto:hover {
       width: 100%; }
+  .main .contenedor-ordenes .ordenes .orden {
+    width: 100%; }
+    .main .contenedor-ordenes .ordenes .orden .conenedor-productos-orden .contenedor-img-lista {
+      text-align: center; }
+      .main .contenedor-ordenes .ordenes .orden .conenedor-productos-orden .contenedor-img-lista ul {
+        width: 100%; }
+      .main .contenedor-ordenes .ordenes .orden .conenedor-productos-orden .contenedor-img-lista .contenedor-img-orden {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center; }
+        .main .contenedor-ordenes .ordenes .orden .conenedor-productos-orden .contenedor-img-lista .contenedor-img-orden img {
+          width: 50%; }
+    .main .contenedor-ordenes .ordenes .orden .btns-entrega {
+      flex-direction: column; }
+      .main .contenedor-ordenes .ordenes .orden .btns-entrega .btn-estado-finalizar {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 90%; }
+      .main .contenedor-ordenes .ordenes .orden .btns-entrega .btn-estado-cancelar {
+        width: 90%; }
   .main .orden {
     width: 0%; }
     .main .orden .contenedor-titulo-compras .contenedor-compras .contenedor-cantidad-quitar {

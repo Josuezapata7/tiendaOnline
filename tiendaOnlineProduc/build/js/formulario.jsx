@@ -1,3 +1,6 @@
+import { useState } from "react";
+
+
 const formulario_productos = document.getElementById('formulario-agregar-producto');
 
 const inputs_formulario = document.querySelectorAll('#formulario-agregar-producto input');
@@ -9,8 +12,6 @@ const expresiones = {
     nombre : /^[A-Za-zÀ-ÿ-\s]{1,20}$/,
     stock : /^[\d]{1,20}$/,
     precio : /^\d*\.?\d*\.?\d+$/
-    //[\d+\.?\d+\.?\d+]{1,20}
-    //[\d*\.?\d*\.?\d]{1,20}
 }
 
 const camposCorrectos = {
